@@ -1,0 +1,53 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>mf2mmqm7O2htghG-gt-14834913-2026-06-17T11:33:54.202Z::pd.xml</types1:EntryId>
+      <types1:Name>Process1</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>u46725.administrator.e-data.sandbox@juliusbaer.com</types1:CreatedBy>
+      <types1:CreationDate>2026-06-17T11:33:54Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  GUID="60cyv8sI5Bwj6HJZoll1Ye"
+                  displayName="Process1"
+                  name="Process1"
+                  overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="none">
+               <rest/>
+            </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">true</nvpair>
+            </extData>
+            <flow id="f95440a45-47c4-4a75-b513-f86859daa201">
+               <start id="bf07f5098-f9a1-4bb4-8b7f-8de5af998e9e">
+                  <link id="v06e62a6f-44d7-4313-9bac-26b2e67c1a41"
+                        targetId="end-w951202f0-6ccc-499b-a1d3-44a29b0b03b0"/>
+               </start>
+               <end id="end-w951202f0-6ccc-499b-a1d3-44a29b0b03b0">
+                  <title>End</title>
+               </end>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>60cyv8sI5Bwj6HJZoll1Ye</types1:GUID>
+      <types1:DisplayName>Process1</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2026-06-19T12:07:06.224Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
